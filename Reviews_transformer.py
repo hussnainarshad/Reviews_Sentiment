@@ -1,6 +1,4 @@
-pip install transformers
 
-pip install torch torchvision torchaudio
 
 """**5 Epocs**"""
 
@@ -15,7 +13,7 @@ from tqdm import tqdm
 import time
 
 # Load the dataset from a CSV file (replace with your dataset file path)
-data = pd.read_csv('/kaggle/input/statistics/Reasearch_stat.csv')
+data = pd.read_csv('data.csv')
 
 # Define labels and mapping
 label_to_id = {'happy': 0, 'sad': 1, 'angry': 2, 'confused': 3, 'neutral': 4}
@@ -139,7 +137,7 @@ from tqdm import tqdm
 import time
 
 # Load the dataset from a CSV file (replace with your dataset file path)
-data = pd.read_csv('/kaggle/input/statistics/Reasearch_stat.csv')
+data = pd.read_csv('data.csv')
 
 # Define labels and mapping
 label_to_id = {'happy': 0, 'sad': 1, 'angry': 2, 'confused': 3, 'neutral': 4}
@@ -263,7 +261,7 @@ from tqdm import tqdm
 import time
 
 # Load the dataset from a CSV file (replace with your dataset file path)
-data = pd.read_csv('/kaggle/input/statistics/Reasearch_stat.csv')
+data = pd.read_csv('data.csv')
 
 # Define labels and mapping
 label_to_id = {'happy': 0, 'sad': 1, 'angry': 2, 'confused': 3, 'neutral': 4}
@@ -387,7 +385,7 @@ from tqdm import tqdm
 import time
 
 # Load the dataset from a CSV file (replace with your dataset file path)
-data = pd.read_csv('/kaggle/input/statistics/Reasearch_stat.csv')
+data = pd.read_csv('data.csv')
 
 # Define labels and mapping
 label_to_id = {'happy': 0, 'sad': 1, 'angry': 2, 'confused': 3, 'neutral': 4}
@@ -511,7 +509,7 @@ from tqdm import tqdm
 import time
 
 # Load the dataset from a CSV file (replace with your dataset file path)
-data = pd.read_csv('/kaggle/input/statistics/Reasearch_stat.csv')
+data = pd.read_csv('data.csv')
 
 # Define labels and mapping
 label_to_id = {'happy': 0, 'sad': 1, 'angry': 2, 'confused': 3, 'neutral': 4}
